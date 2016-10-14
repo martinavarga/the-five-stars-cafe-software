@@ -1,0 +1,19 @@
+Internetkávézó-vezérlõ szoftver 
+
+Az alkalmazás segítségével felügyelhetõ az internetkávézó gépeinek használata.
+Mûködése:
+Az admingépen a vezérlõfelületen az adminisztrátor a vevõ által kért szabad jelzédû gépet elindítja a kért idõtartamra,
+valamint megadja a szolgáltatásért fizetendõ összeget is. 
+A rendszer rögzíti, hogy ki mikor, melyik gépet, mennyi idõre bérelte ki,
+és átállítja a gép státuszát az adatbázisban "foglalt"-ra.
+Eközben a vezérlõfelületen folyamatosan visszajelzi, hogy melyik gépek szabadok (zöld színnel jelölve), 
+valamint azt is, hogy a használatban levõ gépek használati joga mikor jár le.
+Többféle háttérszínnel jelöli a foglalt gépeket (Piros - legkésõbb lejáró ---> Sárga- leghamarabb lejáró) 
+hogy vizuálisan könnyen átlátható legyen, hogy melyik gép jár le leghamarabb.
+Ha lejár az adott gép ideje, akkor a program zárolja azt, blokkolja a hozzáférést, 
+amin így nem lehet tovább semmit sem végezni.
+A lejárati idõ elõtt 5 perccel jelez a vendégnek.
+
+A rendszert Windows  8.1 és Windows 10 opreációs rendszerre tervezzük.
+Az elsõdleges cél az, hogy minél egyszerûbben és gyorsabban fejleszthetõ és továbbfejleszthetõ legyen az alkalmazás.
+

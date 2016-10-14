@@ -1,0 +1,11 @@
+Internetkávézó-vezérlõ
+
+- A rendszer rögzítse, hogy ki, mikor, melyik gépet, mennyi idõre bérelte ki, és mikorra lesz szabad. 
+- A szabad gépekhez lehessen vendéget bejelnteni. Az igényelt netezési idõ alapján írja ki a fizetendõ összeget, ezzel segítve az eladót.
+- Ha lejár az adott gép ideje, akkor a program blokkolja a hozzáférést, zárolja az adott gépet.
+- A lejárat elõtt 5 perccel figyelmeztesse a vendéget.
+- Gyors mûködés
+- Egyszerû, egyértelmû kezelõfelület
+- Az admin gép ne tároljon semmit
+- Ha kell, gyorsan, fennakadás nélkül lehessen fejleszteni, bõvíteni, javítani
+- Felhasználóbarát kezelõfelület és megjelenés
